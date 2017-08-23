@@ -20,7 +20,12 @@ h1 {
 } 
 
 .nav {
-    padding-top: 0.5cm; 
+padding-top: 0.5cm; 
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
 }
 header {
 } 
@@ -29,6 +34,39 @@ header {
     padding-top: 0.5cm; 
     padding-left:0.5cm; 
 } 
-#image {
-    image-rendering: 
+
+.container {
+    padding: 22px;
+}
+
+#selection {
+background-color: lightgrey;
+    width: 300px;
+    border: 25px solid blue;
+    padding: 25px;
+    margin: 25px;
+} 
+p {
+    display: inline-block;
+}
+#training {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid blue;
+    padding: 25px;
+    margin: 25px; 
+}
+#higherEdu {
+    font-size: 45px;
+}
+.divOverlay {
+    background: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)),
+                rgba(0,0,0, 0.15); 
+    background-color: white;
+} 
+.boxDiv {
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+
 }
